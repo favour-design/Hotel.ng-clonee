@@ -1,0 +1,485 @@
+:root {
+    --primary: white;
+    --main: #00AEFF;
+    --dark: #4f4f4f;
+    --average: #657279;
+    --light: #fAfAfA;
+}
+.html  {
+    box-sizing: border-box;
+    font-family: Lato, poppsins;
+    color: var(--dark);
+}
+.body {
+    letter-spacing: -1px;
+    font-size: 1rem;
+    margin: 3.2rem;
+}
+.img {
+    max-width: 100%;
+}
+.btn {
+   background: var(--main);
+   color: var(--primary);
+   /* padding: 1rem, 1.5rem; */
+   text-decoration: none;
+   border: 0;
+	 border-radius: 3px;
+   height: 2.8rem;
+   padding: 1rem 2rem;
+   font-size: 0.8rem;
+}
+
+.line {
+    background-color: var(--main);
+    width: 40px;
+    height: 3.5px;
+    margin-left: 33rem;
+    margin-bottom: 4rem;
+}
+/* Navigation bar */
+.navbar ul {
+  display: grid;
+  grid-gap: 1rem;
+  list-style: none;
+  grid-template-columns: repeat(6, 1fr);
+}
+.navbar {
+    background-color: var(--main);
+    
+}
+.hotelpix {
+    width: 6rem;
+    height: 3rem;
+    text-align: center;
+}
+.fab {
+    font-size: 1.5rem;
+    color: white;
+    background-color:rgb(42, 235, 42);
+    border-radius: 50%
+}
+.contact {
+   border-radius: 50%;
+   width: 2rem;
+   height: 2rem;
+}
+.fas {
+ background-color: skyblue;
+   color: white;
+   font-size: 1.5rem;
+   border-radius: 50%;
+}
+.contact {
+   border-radius: 50%;
+   width: 2rem;
+   height: 2rem;
+}
+.flag {
+   width: 2rem;
+   height: 1rem;
+} 
+.naira {
+  width: 1rem;
+  height: 0.5rem;
+} 
+
+/* Top Container */
+.top-container {
+  background-image: url(Assets/images/v7-homepage1.jpg);
+  padding: 9rem;
+}
+.find {
+  font-size: 2.3rem;
+  text-align: center;
+  color: var(--primary);
+  margin: 0;
+  padding-top: 5rem;
+  font-weight: 500;
+}
+
+.search {
+  font-size: 1.4rem;
+  color: var(--primary);
+  text-align: center;
+  margin-top: 0.3rem;
+  font-weight: 400;
+}
+
+/* ----------Section Sticky----------- */
+.box {
+height: 0.2rem;
+width: 25rem;
+background-color: var(--primary);
+border: 1px solid gray;
+border-radius: 0.3rem;
+display: flex;
+align-items: center;
+padding: 1.3rem;
+  
+}
+.box > i {
+font-size: 1rem;
+color: var(--dark);
+}
+.box > input {
+flex: 1;
+height: 1.5rem;
+border: none;
+outline: none;
+font-size: 1rem;
+padding-left: 1rem;
+}
+.calendar {
+height: 1.8rem;
+width: 20rem;
+border-radius: 0.3rem;
+border: 1px solid gray;
+padding: 0.5rem;
+}
+.calendar > input {
+padding-left: 1rem;
+font-size: 1.3rem;
+padding: 1rem;
+color: var(--average);
+}
+.find-hotels {
+display: inline-flex;
+flex-wrap: wrap;
+gap: 0.3rem;
+background-color: var(--primary);
+margin-left: 4.5%;
+margin-right: auto;
+} 
+
+/* Section:Sticky */
+.sticky {
+  box-shadow: 0 4px 15px rgba(0,0,0,.2);
+  padding: 3rem;
+  margin-left: 10%;
+  margin-right: 10%;
+} 
+/* .main-body {
+  margin-left: 10%;
+  margin-right: 10%;
+} */
+
+/* --------Section: Destination-------- */
+.list {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 20px;
+  align-items: center;
+  justify-items: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 2.5rem;
+}
+.port {
+  border: 2px solid var(--main);
+  border-radius: 0.3rem;
+  width: 9rem;
+  height: 5rem;
+  text-align: center;
+}
+.harcourt {
+  font-size: 1.3rem;
+  color: var(--main);
+  font-weight: 500;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+}
+.hotels {
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  color: var(--average);
+}
+.line {
+  background-color: var(--main);
+  width: 40px;
+  height: 3.5px;
+  margin-left: 38rem;
+  margin-bottom: 0rem;
+}
+.suggested {
+  text-align: center;
+  color: var(--dark);
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 8rem;
+}
+.see {
+  text-align: center;
+  color: var(--dark);
+  margin-top: 0.3rem;
+  margin-bottom: 0.5rem;  
+}
+
+/* Section Top Deals */
+.pics {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 25px;
+  padding: 3rem;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 0;
+}
+.pics img {
+  height: 15rem;
+  width: 20rem;
+
+}
+.sub-pixs {
+ border: 1px solid var(--average);
+}
+.states {
+  color: var(--dark);
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 0.8rem;
+}
+.hotel-pix {
+  font-size: 1.3rem;
+  color: var(--main);
+  font-weight: 500;
+  padding-top: 2rem; 
+  margin-left: 0.5rem;
+}
+.state {
+  padding: 0.1rem;
+  color: var(--dark);
+  margin-left: 0.5rem;
+}
+
+/* SEction: Popular Cities */
+.locations {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 25px;
+  padding: 3rem;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15%;
+  margin-right: 18%;
+  margin-top: 0;
+}
+
+/* Section: SElect Cities */
+.list-places a {
+  font-size: 1.3rem;
+  color: var(--main);
+  font-weight: 500;
+}
+.reviews {
+  font-size: 1rem;
+  color: var(--average);
+}
+.list-places {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  padding: 3rem;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15%;
+  margin-right: 18%;
+  margin-top: 0;
+}
+
+/* Special Hotel Deals */
+.secret-deals {
+  background-color: var(--light);
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+  height: 15rem;
+}
+.email { 
+  height: 1.5rem;
+  width: 35rem;
+  border-radius: 0.3rem;
+  border: 1px solid gray;
+  padding: 0.5rem;
+  padding-bottom: 1rem;
+}
+  .email > input {
+  padding-left: 1rem;
+  font-size: 3rem;
+  padding: 1rem;
+  color: var(--average);
+}
+.offers {
+  color: var(--dark);
+  font-size: 2rem;
+  font-weight: 600;
+  padding-top: 2rem;
+  padding-bottom: 0.3rem;
+  
+}
+.enter {
+  text-align: center;
+  color: var(--dark);
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;  
+}
+
+/*  Section: Features */
+.spor ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  list-style: none;
+  margin-left: 18%;
+  margin-right: 15%;
+  margin-top: 4rem;
+}   
+.bbc {
+  height: 3rem;
+  width: 8rem; 
+}
+.booking {
+  color: var(--dark);
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding-top: 2rem;
+  padding-bottom: 0.3rem; 
+  margin-top:  3rem;
+}
+.findout {
+  text-align: center;
+  color: var(--dark);
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem; 
+}
+.getmore {
+ text-align: center;
+}
+.btns {
+  background: var(--main);
+  color: var(--primary);
+  text-decoration: none;
+  border: 0;
+	border-radius: 3px;
+  height: 0.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  font-size: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  width: 12rem;
+}
+.getapp {
+  display: flex;
+  flex-direction: row;
+  background-color: #eff8fb;
+  padding-top: 6rem;
+  align-items: center;
+  justify-content: center;
+}
+.app {
+  margin-left: 3rem;
+}
+.getapp1 {
+  margin-left: 2rem;
+}
+.getapp1 h3 {
+  font-size: 3.5rem;
+  color: var(--main);
+  margin-bottom: 0.3rem;
+  margin-top: 7.5rem;
+}
+.getapp img {
+  margin-right: 2rem;
+}
+.hotapp {
+  font-size: 1.5rem;
+  color: var(--dark);
+  font-weight: 540;
+  margin-bottom: 0.3rem;
+}
+.book {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: var(--dark);
+}
+.footsearch {
+  display: flex;
+  flex-direction: row;
+  background-color: #084482;
+  padding-top: 1.5rem;
+  padding-bottom: 3rem;
+  align-items: center;
+  justify-content: center;
+  height: 2rem;
+}
+.sign img {
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: var(--primary);
+  border-radius: 1.5rem;
+  padding: 0.5rem;
+}
+.inputsearch {
+  background-color: var(--main);
+  height: 1.8rem;
+  padding-bottom: 0.9rem;
+  border-radius: 0.3rem;
+  margin-left: 5rem;
+  margin-top: 2rem;
+}
+.btnn {
+  background: var(--main);
+  color: var(--primary);
+  text-decoration: none;
+  border: 0;
+	border-radius: 0.3rem;
+  height: 0.1rem;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+  /* padding-right: 2rem; */
+  /* padding-left: 2rem; */
+  font-size: 1rem;
+  /* margin-top: 2rem; */
+  margin-bottom: 5rem;
+  width: 8rem;
+}
+.yourmail {
+  height: 1.5rem;
+  width: 15rem;
+  border-radius: 0.2rem;
+  border: 1px solid gray;
+ padding: 0.8rem;
+ padding-bottom: 0.3rem;
+}
+.sign1 {
+  display: flex;
+  flex-direction: row;
+}
+.sign1 img {
+  margin-right: 0.8rem;
+  margin-top: 2.3rem;
+}
+.texts {
+  margin-top: 2rem;
+}
+.unlock {
+  color: var(--primary);
+  font-size: 1.2rem;
+  margin-bottom: 0.2rem;
+}
+.signup {
+  color: var(--main);
+}
+
+/* SEction: Listdetails */
+.downnavbar {
+  color: var(--average);
+  border-bottom: 1px solid var(--average);
+}
+  
