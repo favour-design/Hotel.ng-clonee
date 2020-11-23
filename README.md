@@ -2,10 +2,10 @@
 Hotel.ng-clonee
 
 ## Project Description
-This is a clone of site called Hotel.ng, we used this learning more about grid and positioning(sticky).
+It's a project on Hotel.ng, we used this learning more about grid and positioning(sticky).
 
 ### Demo (Image)
-![A_Screenshot_of_this_project](/pix/Capture.PNG "Page view.")
+![A_Screenshot_of_this_project](/pix/Capture1.PNG "Page view.")
 
 
 
