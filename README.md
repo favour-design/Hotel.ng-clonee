@@ -5,7 +5,7 @@ Hotel.ng-clonee
 It's a project on Hotel.ng, we used this learning more about grid and positioning(sticky).
 
 ### Demo (Image)
-![A_Screenshot_of_this_project](/pix/Capture1.PNG "Page view.")
+![A_Screenshot_of_this_project](/Assets/images/Capture1.PNG "Page view.")
 
 
 
